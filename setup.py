@@ -12,34 +12,34 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 requirements = ['Click>=6.0',
-                'googletrans==2.3.0',
-                'polib==1.1.0',
-                'path.py==11.0.1',
-                'importlib_resources==1.0.1',
+                'googletrans==3.0.0',
+                'polib==1.1.1',
+                'path.py==12.5.0',
+                'importlib_resources==5.1.2',
                 ]
 
 setup_requirements = ['pytest-runner', ]
 
-test_requirements = ['pip==10.0.1',
-                     'pytest==3.6.2',
-                     'pytest-runner==4.2',
+test_requirements = ['pip==21.0.1',
+                     'pytest==6.2.3',
+                     'pytest-runner==5.3.0',
                      'Click>=6.0',
-                     'bump2version==0.5.8',
-                     'wheel==0.31.1',
-                     'watchdog==0.8.3',
-                     'flake8==3.5.0',
-                     'tox==3.1.2',
-                     'coverage==4.5.1',
-                     'Sphinx==1.7.6',
-                     'twine==1.11.0',
-                     'googletrans==2.3.0',
-                     'polib==1.1.0',
-                     'importlib_resources==1.0.1',
+                     'bump2version==1.0.1',
+                     'wheel==0.36.2',
+                     'watchdog==2.0.2',
+                     'flake8==3.9.1',
+                     'tox==3.23.0',
+                     'coverage==5.5',
+                     'Sphinx==3.5.4',
+                     'twine==3.4.1',
+                     'googletrans==3.0.0',
+                     'polib==1.1.1',
+                     'importlib_resources==5.1.2',
                      ]
 
 extras_require = {
     'transifex': [
-        'transifex_client>=0.13.4'
+        'transifex_client>=0.14.2'
     ],
 }
 
@@ -66,12 +66,13 @@ setup(
         'Natural Language :: Greek', 'Natural Language :: English', 'Natural Language :: French',
         'Natural Language :: Italian', 'Natural Language :: Japanese',
         'Natural Language :: Chinese (Simplified)',
-        "Programming Language :: Python :: 2",
-        'Programming Language :: Python :: 2.7',
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
     ],
     description="A python package to easily translate po and pot files in any language supported by Google Translate.",
     entry_points={
