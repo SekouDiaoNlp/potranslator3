@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-googletrans = "==2.3.0"
+googletrans = "==3.1.0a0"
 polib = "==1.1.0"
 click = ">=6.0"
 "path.py" = "==11.0.1"
